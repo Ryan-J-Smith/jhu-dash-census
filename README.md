@@ -37,3 +37,5 @@ You will need to install a few python packages for this to work.  I will try to 
 * `pandas`
 * `requests`
 * `us`
+
+I have also assumed that you have iPython notebook installed.  Standalone python scripts will be up soon.
