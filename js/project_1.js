@@ -1,8 +1,8 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiYmlvcGh5c2VyIiwiYSI6ImNpZXZ1MWxpdTB4czd0Nm0zeHRtMzIwc2oifQ.r4OfI6MpJuKYvA6rN18g_Q';
 // Construct a bounding box for this map that the user cannot
 // move out of
-var southWest = L.latLng(39.196, -76.728),
-    northEast = L.latLng(39.379, -76.525),
+var southWest = L.latLng(37.7968, -79.6179),
+    northEast = L.latLng(39.8507, -74.8718),
     
     bounds = L.latLngBounds(southWest, northEast);
 var map = L.mapbox.map('map', ' biophyser.nh65kdh9', {
