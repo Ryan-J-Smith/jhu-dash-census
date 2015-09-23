@@ -5,7 +5,7 @@ var southWest = L.latLng(37.7968, -79.6179),
     northEast = L.latLng(39.8507, -74.8718),
     
     bounds = L.latLngBounds(southWest, northEast);
-var map = L.mapbox.map('map', ' biophyser.nh65kdh9', {
+var map = L.mapbox.map('map', 'biophyser.nh65kdh9', {
     // set that bounding box as maxBounds to restrict moving the map
     // see full maxBounds documentation:
     // http://leafletjs.com/reference.html#map-maxbounds
@@ -16,6 +16,3 @@ var map = L.mapbox.map('map', ' biophyser.nh65kdh9', {
 
 // zoom the map to that bounding box
 map.fitBounds(bounds);
-
-// Add optional fullscreen zoom
-L.control.fullscreen().addTo(map);

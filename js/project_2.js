@@ -15,6 +15,3 @@ var map = L.mapbox.map('map', 'rhelbing.nh6698kj', {
 
 // zoom the map to that bounding box
 map.fitBounds(bounds);
-
-// Add optional fullscreen zoom
-L.control.fullscreen().addTo(map);
