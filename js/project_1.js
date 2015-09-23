@@ -1,17 +1,17 @@
-L.mapbox.accessToken = 'pk.eyJ1IjoicnlhbmpzbWl0aCIsImEiOiJGdUZ1VllrIn0.3CnpoqP4UtaQPRHvEzssgA';
+L.mapbox.accessToken = 'pk.eyJ1IjoiYmlvcGh5c2VyIiwiYSI6ImNpZXZ1MWxpdTB4czd0Nm0zeHRtMzIwc2oifQ.r4OfI6MpJuKYvA6rN18g_Q';
 // Construct a bounding box for this map that the user cannot
 // move out of
 var southWest = L.latLng(39.196, -76.728),
     northEast = L.latLng(39.379, -76.525),
     
     bounds = L.latLngBounds(southWest, northEast);
-var map = L.mapbox.map('map', 'ryanjsmith.i3och08o', {
+var map = L.mapbox.map('map', ' biophyser.nh65kdh9', {
     // set that bounding box as maxBounds to restrict moving the map
     // see full maxBounds documentation:
     // http://leafletjs.com/reference.html#map-maxbounds
     maxBounds: bounds,
-    maxZoom: 14,
-    minZoom: 12
+    maxZoom: 11,
+    minZoom: 7
 });
 
 // zoom the map to that bounding box
