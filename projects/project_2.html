@@ -84,7 +84,8 @@
 
             <div class="col-md-4">
                 <h3>Identifying similar census tracts</h3>
-                <p>We scraped the addresses of all Whole Foods locations in the United States.  These addresses were georeferenced with a Python script that made calls to a geocoding API hosted by the census.  Income and age demographics from each of these tracts were acquired from the 2009-2013 American Community Survey using a US Census API.  These demographics were averaged to create a "prototypical" Whole Foods neighborhood.  This prototype was compared to every census tract in Maryland.</p>
+                <p>We scraped the addresses of all Whole Foods locations in the United States.  These addresses were georeferenced with a Python script that made calls to a geocoding API hosted by the census.  Income and age demographics from each of these tracts were acquired from the 2009-2013 American Community Survey using a US Census API.  These demographics were averaged to create a "prototypical" Whole Foods neighborhood.  This prototype was compared to every census tract in Maryland. </p>
+                <p>Comparisons were based on calculating the Hellinger distance between the joint distribution of income and age of each tract with the prototype Whole Foods tract. This map visualizes the resulting Hellinger distances. Smaller distances signify that a particular tract is more similar to the protoype tract.</p>
                 <h3>Project Details</h3>
                 <ul>
                     <li>Web scraping with python</li>
